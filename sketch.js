@@ -89,6 +89,10 @@ function bigballs(){
       print("hit")
       score = score-15;
     }
+
+    if (a > 600){
+      a = 0;
+    }
   
  }
  
@@ -228,28 +232,29 @@ if (t >9000 && t < 13800 ){
  
  } 
 
- if (t >16000 && t < 19000 ){
+ if (t >170000 && t < 20000 ){
 
-  balldrop3();
- 
- } 
+  balldrop2();
+ }
 
- if (t >19000 && t < 22700 ){
+ if (t >20000 && t < 22700 ){
 
   balldrop4();
  
  } 
  
- if (t >22700 && t < 23000 ){
+ if (t >22700 && t < 24500 ){
 
   balldrop5();
  
  } 
- if (t >2500 && t < 29000 ){
+ if (t >25000 && t < 29000 ){
 
   ballDrop();
  
  } 
+
+
 }
 
 // dectecting your distance frome something 
